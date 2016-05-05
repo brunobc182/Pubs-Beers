@@ -9,15 +9,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.com.hugo.pubsbeer.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:id="@+id/icon"
+        android:src="@drawable/icon4"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="81dp" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/etEmail"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:hint="email" />
+        android:hint="email"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="match_parent"
@@ -25,9 +38,10 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/etSenha"
+        android:hint="senha"
+        android:layout_alignParentEnd="true"
         android:layout_below="@+id/etEmail"
-        android:layout_centerHorizontal="true"
-        android:hint="senha" />
+        android:layout_alignParentRight="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -35,9 +49,9 @@
         android:layout_height="wrap_content"
         android:text="Entrar"
         android:id="@+id/btEntrar"
+        android:layout_alignParentEnd="true"
         android:layout_below="@+id/etSenha"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentRight="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -45,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Cadastrar-se"
         android:id="@+id/btCadastrar"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/btEntrar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentRight="true" />
 </RelativeLayout>
