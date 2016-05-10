@@ -19,18 +19,18 @@ public class CervejasActivity extends AppCompatActivity {
     private ListView lvCervejas;
 
     static {
-        cervejas.add(new Cerveja("Bavária", "Bulgaria", "Maltada", 1, 2));
-        cervejas.add(new Cerveja("Antártica", "Brasil", "Maltada", 1, 2));
-        cervejas.add(new Cerveja("Coca Cola", "E.U.A", "Refri", 2, 3));
-        cervejas.add(new Cerveja("Fanta", "E.U.A", "Refri", 3, 4));
-        cervejas.add(new Cerveja("Guaraná", "Brasil", "Refri", 3));
-        cervejas.add(new Cerveja("Dolly", "Brasil", "Refri", 1, 2));
-        cervejas.add(new Cerveja("Budwheiser", "Belgica", "Trigo", 4, 5));
-        cervejas.add(new Cerveja("Bhrama", "Brasil", "Manteiga", 1));
-        cervejas.add(new Cerveja("Chopp", "Holanda", "Maltada", 2, 4, 5));
+        cervejas.add(new Cerveja("Bavária", "Brasil", "Larger", 1, 2));
+        cervejas.add(new Cerveja("Antarctica", "Brasil", "Larger", 1, 2));
+        cervejas.add(new Cerveja("Guinness", "Irlanda", "Dry Stout", 2, 3));
+        cervejas.add(new Cerveja("Eisenbahn", "Brasil", "Ale", 3, 4));
+        cervejas.add(new Cerveja("Therezópolis", "Brasil", "Lager", 3));
+        cervejas.add(new Cerveja("Heineken", "Holanda", "Lager", 1, 2));
+        cervejas.add(new Cerveja("Budweiser", "EUA", "Larger", 4, 5));
+        cervejas.add(new Cerveja("Bhrama", "Brasil", "Larger", 1));
+        cervejas.add(new Cerveja("Caracu", "Brasil", "Stout", 2, 4, 5));
         cervejas.add(new Cerveja("Skol", "Brasil", "Maltada", 5, 6));
-        cervejas.add(new Cerveja("Korona", "México", "Suave", 3, 6));
-        cervejas.add(new Cerveja("Beats", "Brasil", "Maltada", 3, 2));
+        cervejas.add(new Cerveja("Corona", "México", "Larger", 3, 6));
+        cervejas.add(new Cerveja("Desperados", "França", "Specialty Beer", 3, 2));
     }
 
     @Override

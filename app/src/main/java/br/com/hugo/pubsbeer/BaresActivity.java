@@ -1,17 +1,15 @@
 package br.com.hugo.pubsbeer;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class BaresActivity extends AppCompatActivity {
 
@@ -22,7 +20,7 @@ public class BaresActivity extends AppCompatActivity {
     public static List<Bar> bares = new ArrayList<>();
 
     static {
-        bares.add(new Bar("Bar Hubo", "Metrópole Caucaia", 1, 2, 3, 4));
+        bares.add(new Bar("Bar do Seu Toim", "Metrópole Caucaia", 1, 2, 3, 4));
         bares.add(new Bar("Python Bar", "Garrote Caucaia", 1, 2));
         bares.add(new Bar("Thor Bar", "Itambém Caucaia", 2, 3, 4));
         bares.add(new Bar("Açaí Bar", "Tucunduba Caucaia", 4, 5));
